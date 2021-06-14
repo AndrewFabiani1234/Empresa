@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Inclusão de notas e faltas</title>
+<script src="../js/notas.js"></script>
+<link rel="stylesheet" href="css/meu.css">
+</head>
+<body>
+
+<form action="notas.jsp" method="post" name="notas">
+	Notas:<br>
+	<input type="number" name="nota" size="2"><br>
+	<input type="number" name="nota" size="2"><br>
+	<input type="number" name="nota" size="2"><br>
+	<input type="number" name="nota" size="2"><br>
+	<input type="number" name="nota" size="2"><br>
+	
+	Faltas:<br>
+	<input type="number" name="falta" size="2"><br>
+	<input type="number" name="falta" size="2"><br>
+	<input type="number" name="falta" size="2"><br>
+	<input type="number" name="falta" size="2"><br>
+	<input type="number" name="falta" size="2"><br><br>
+	
+	<input type="button" class="botao" onclick="validar()" value="Validar e Enviar Notas">
+	<input type="button" class="botao" onclick="preencher()" value="Preencher com zeros">
+
+</form>
+</body>
+</html>
